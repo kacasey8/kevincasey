@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 def initialize_projects
-  projects = [
+  hackathons = [
     {
       name: 'Hack FSM',
       timeframe: '4/1/14 - 4/12/14',
@@ -33,18 +33,21 @@ def initialize_projects
     {
       name: 'Food Me',
       timeframe: '3/1/14 - 12 hrs',
-      blurb: "Hackers@Berkeley's HackJam. Built a when to meet with perks for food.  Python Google App Enging",
+      blurb: "Hackers@Berkeley's HackJam. Built a when to meet with perks for food. Python Google App Enging",
       event_type: 'hackathon',
       repo: 'https://github.com/craighiller/foodme',
       demo: 'http://food-me.appspot.com',
       description: "This was a really basic app and our first attempt at a hackathon.  We didn't win but it was really fun to try to build something!
               Features include logging into Facebook to get access to friends and linking the app to texting.  I worked on the backend and did
               some of the frontend for this."
-    },
+    }
+  ]
+
+  school_contests = [
     {
       name: 'CS188 Pacman Contest',
       timeframe: 'Spring 2014',
-      blurb: "1st place winner in a contest of programming multi-agent competitive capture the flag",
+      blurb: "1st place winner in a contest of programming multi-agent competitive capture the flag (food pellet) game",
       event_type: 'school contest',
       description: "There were 4 different releases to the contest, making the parameters increasingly difficult.
             The first part was a search problem, agents could not be killed, so the problem was a matter steps required to collect pellets.
@@ -69,7 +72,36 @@ def initialize_projects
     }
   ]
 
-  projects.each do |project|
+  personal = [
+    {
+      name: 'Irrational Mind',
+      timeframe: 'January 2014',
+      blurb: "Designed and built a simple Ruby On Rails app to convert decimal approximations of irrational numbers to approximate rational numbers. E.g. 0.392699 -> π/8.",
+      event_type: 'personal projects',
+      repo: "github.com/Fortisque/irrational_mind",
+      demo: "http://irrational-mind.herokuapp.com",
+      description: "I envisioned this app as a solution to the problem of finding eigenvectors of matricies.  When using an online
+            caclulator for this it would always give you back the solution in the form of decimal values, but it was obviously more
+            useful and intuitive to be able to see the result as a familar figure such as sqrt(5).  I used a brute force
+            solution to solve the problem which clearly is not the most elegent solution but it worked for what I intended."
+    },
+    {
+      name: 'Bluetooth Markers',
+      timeframe: 'Spring 2013',
+      blurb: "Designed and built an iPhone app that would add a marker to a map when Bluetooth connections were severed",
+      event_type: 'personal projects',
+      repo: "github.com/Fortisque/BluetoothMarkers",
+      description: "My friend actually gave me the idea for this because he kept forgetting where he parked his car.
+            The idea was that when you turn off your car to park it the bluetooth connection is dropped, thus your phone
+            can automatically track where you stopped.  I managed to make it work for a faked bluetooth connection coming from
+            my iPad, but I never really stablized it for use with actual cars (there was a lot of problems with the app backgrounding
+            and finding singnals). So unfortunately the app was left in an unfinished state (and will likely remain that way)"
+    }
+  ]
+
+  all_projects = hackathons + school_contests +  personal
+
+  all_projects.each do |project|
     Project.where(project).first_or_create
   end
 end
