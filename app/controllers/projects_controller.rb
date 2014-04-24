@@ -4,7 +4,7 @@ class ProjectsController < ApplicationController
   # GET /projects
   # GET /projects.json
   def index
-    @projects = Project.all
+    @grouped_projects = Project.all.group_by(&:event_type)
   end
 
   # GET /projects/1

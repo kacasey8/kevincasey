@@ -12,7 +12,7 @@
 #  image_src   :string(255)
 #  created_at  :datetime
 #  updated_at  :datetime
-#  type        :string(255)
+#  event_type  :string(255)
 #
 
 class Project < ActiveRecord::Base
