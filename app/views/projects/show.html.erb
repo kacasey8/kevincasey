@@ -1,7 +1,7 @@
 <%- model_class = Project -%>
 <div class="page-header">
   <h1><%= @project.name %></h1>
-  <h3>[<%= link_to 'demo', @project.demo %>] [<%= link_to 'repo', @project.repo %>]</h3>
+  <h3>[<%= link_to_if @project.demo, 'demo', @project.demo %>] [<%= link_to_if @project.repo, 'repo', @project.repo %>]</h3>
 </div>
 
 <dl class="dl-horizontal">
