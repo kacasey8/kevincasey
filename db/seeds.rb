@@ -8,7 +8,7 @@
 
 def initialize_projects
   projects = [
-    {name: 'HackFSM', timeframe: '4/1/14 - 4/12/14', blurb: 'Weeklong hackathon hosted by the Bancroft Library at Berkeley.', type: 'hackathon', repo: 'https://github.com/craighiller/hackfsm', demo: 'http://fsm-archive.appspot.com', description: 'TEMP'}
+    {name: 'HackFSM', timeframe: '4/1/14 - 4/12/14', blurb: 'Weeklong hackathon hosted by the Bancroft Library at Berkeley.', event_type: 'hackathon', repo: 'https://github.com/craighiller/hackfsm', demo: 'http://fsm-archive.appspot.com', description: 'TEMP'}
   ]
 
   projects.each do |project|
