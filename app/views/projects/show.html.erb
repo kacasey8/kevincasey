@@ -1,21 +1,16 @@
 <%- model_class = Project -%>
 <div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+  <h1><%= @project.name %></h1>
+  <h3>[<%= link_to 'demo', @project.demo %>] [<%= link_to 'repo', @project.repo %>]</h3>
 </div>
 
 <dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
-  <dd><%= @project.name %></dd>
   <dt><strong><%= model_class.human_attribute_name(:timeframe) %>:</strong></dt>
   <dd><%= @project.timeframe %></dd>
   <dt><strong><%= model_class.human_attribute_name(:blurb) %>:</strong></dt>
   <dd><%= @project.blurb %></dd>
   <dt><strong><%= model_class.human_attribute_name(:description) %>:</strong></dt>
   <dd><%= @project.description %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:repo) %>:</strong></dt>
-  <dd><%= @project.repo %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:demo) %>:</strong></dt>
-  <dd><%= @project.demo %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:image_src) %>:</strong></dt>
-  <dd><%= @project.image_src %></dd>
 </dl>
+
+<%= link_to 'Back', projects_path, :class => 'btn btn-primary btn-lg' %></dd>
