@@ -2,6 +2,9 @@ Kevincasey::Application.routes.draw do
   resources :projects
 
   root to: 'pages#home'
+  match 'contact', to: 'pages#contact', via: :get, as: "contact"
+  match 'experience', to: 'pages#experience', via: :get, as: "experience"
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

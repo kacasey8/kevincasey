@@ -27,7 +27,7 @@ def initialize_projects
       repo: 'https://github.com/Fortisque/halloftime',
       demo: 'http://www.calblueprint.org/hackathons/save-the-day-code-for-good/hacks/hall-of-time',
       description: 'This was a rails app, and I was the only one that knew rails beforehand so I handeled the controller and backend logic.
-            Luckily my teammates were able to build and design a beautiful front-end on top of my database.  We added various features from just
+            Luckily my 3 other teammates were able to build and design a beautiful front-end on top of my database.  We added various features from just
             a basic database time logging including a dashboard that can log current tasks and a calendar view.'
     },
     {
@@ -37,9 +37,25 @@ def initialize_projects
       event_type: 'hackathon',
       repo: 'https://github.com/craighiller/foodme',
       demo: 'http://food-me.appspot.com',
-      description: "This was a really basic app and our first attempt at a hackathon.  We didn't win but it was really fun to try to build something!
+      description: "This was a really basic app and our first attempt at a hackathon.  It was really fun to try to build something on our own.
               Features include logging into Facebook to get access to friends and linking the app to texting.  I worked on the backend and did
               some of the frontend for this."
+    }
+  ]
+
+  school_projects = [
+    {
+      name: 'Photo Evidence Gallery',
+      timeframe: 'Fall 2013',
+      blurb: "Ruby on Rails website developed for BAMRU designed to privately store photos"
+      event_type: 'school project',
+      repo: 'https://github.com/cs169-2013/photo_evidence_gallery',
+      demo: 'photoevidence.herokuapp.com'
+      description: "This was my first experience building a web app, so it was exciting because none of us knew what we were doing. We were 
+            a team of 6 and were connected to our client BAMRU (Bay Area Mountain Rescue Unit) through our CS169 class at Berkeley. Our client
+            wanted secure photos in order to share potentially crime sensitive information to each other during a rescure operation. Over the 
+            course of 4 iterations we developed various features including cropping, rotation and uploading photos to Flickr and Facebook.
+            We used TDD and Agile, and during the project I worked all over the stack to make sure everything worked."
     }
   ]
 
