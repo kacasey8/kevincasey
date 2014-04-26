@@ -3,14 +3,19 @@
   <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
 </div>
 <% @grouped_projects.each do |type, projects| %>
-  <div class="page-header">
+  <% spaceless_type = type.gsub(' ', '') %>
+  <div class="page-header" id=<%= spaceless_type %>>
     <h2><%= type.pluralize.titleize %></h2>
   </div>
   <% projects.each do |project| %>
-    <h3><%= link_to project.name, project_path(project) %></h3>
-    <h4>[<%= link_to_if project.demo, 'demo', project.demo %>] [<%= link_to_if project.repo, 'repo', project.repo %>]</h4>
-    <h4>Time: <%= project.timeframe %></h4>
-    <%= project.blurb %>
-    <%= project.image_src %>
+    <div class="panel panel-default" id=<%= spaceless_type %>>
+      <div class="panel-body">
+        <h3><%= link_to project.name, project_path(project) %></h3>
+        <h4>[<%= link_to_if project.demo, 'demo', project.demo %>] [<%= link_to_if project.repo, 'repo', project.repo %>]</h4>
+        <h4>Time: <%= project.timeframe %></h4>
+        <%= project.blurb %>
+        <%= project.image_src %>
+      </div>
+    </div>
   <% end %>
 <% end %>
