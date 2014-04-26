@@ -47,10 +47,10 @@ def initialize_projects
     {
       name: 'Photo Evidence Gallery',
       timeframe: 'Fall 2013',
-      blurb: "Ruby on Rails website developed for BAMRU designed to privately store photos"
+      blurb: "Ruby on Rails website developed for BAMRU designed to privately store photos",
       event_type: 'school project',
       repo: 'https://github.com/cs169-2013/photo_evidence_gallery',
-      demo: 'photoevidence.herokuapp.com'
+      demo: 'photoevidence.herokuapp.com',
       description: "This was my first experience building a web app, so it was exciting because none of us knew what we were doing. We were 
             a team of 6 and were connected to our client BAMRU (Bay Area Mountain Rescue Unit) through our CS169 class at Berkeley. Our client
             wanted secure photos in order to share potentially crime sensitive information to each other during a rescure operation. Over the 
