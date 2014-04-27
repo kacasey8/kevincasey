@@ -1,14 +1,10 @@
-html {
-  background-color:Indigo;
-}
-
 footer 
 {
 	text-align: center;
 }
 
 body {
-  background-color:Ivory;
+  background-color:AliceBlue;
   padding-top: 60px;
 }
 
@@ -17,7 +13,7 @@ p, address, li {
 }
 
 li {
-  padding-top:5px;
+  padding-top:3px;
 }
 
 #hackathon {
@@ -32,6 +28,11 @@ li {
 
 #personalprojects {
   border-color:red;
+  border-width:2px;
+}
+
+#contact {
+  border-color:Khaki;
   border-width:2px;
 }
 
