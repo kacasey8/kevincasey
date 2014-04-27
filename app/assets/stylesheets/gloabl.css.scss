@@ -1,9 +1,14 @@
+html {
+  background-color:Indigo;
+}
+
 footer 
 {
 	text-align: center;
 }
 
 body {
+  background-color:Ivory;
   padding-top: 60px;
 }
 
@@ -11,16 +16,23 @@ p, address, li {
   font-size: 1.1em;
 }
 
+li {
+  padding-top:5px;
+}
+
 #hackathon {
-  border-color:red;
+  border-color:purple;
+  border-width:2px;
 }
 
 #schoolcontest {
   border-color:green;
+  border-width:2px;
 }
 
 #personalprojects {
-  border-color:blue;
+  border-color:red;
+  border-width:2px;
 }
 
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");

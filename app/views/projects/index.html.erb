@@ -13,8 +13,7 @@
         <h3><%= link_to project.name, project_path(project) %></h3>
         <h4>[<%= link_to_if project.demo, 'demo', project.demo %>] [<%= link_to_if project.repo, 'repo', project.repo %>]</h4>
         <h4>Time: <%= project.timeframe %></h4>
-        <%= project.blurb %>
-        <%= project.image_src %>
+        <p><%= project.blurb %></p>
       </div>
     </div>
   <% end %>

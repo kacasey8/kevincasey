@@ -11,7 +11,7 @@ def initialize_projects
     {
       name: 'Hack FSM',
       timeframe: '4/1/14 - 4/12/14',
-      blurb: '1st place in a weeklong hackathon hosted by the Bancroft Library at Berkeley. Designed and built a web interface for the FSM Archive.  Python Bottle.',
+      blurb: '1st place in a weeklong hackathon hosted by the Bancroft Library at Berkeley. Designed and built a web interface for the FSM Archive.  Python, Bottle.',
       event_type: 'hackathon', repo: 'https://github.com/craighiller/hackfsm',
       demo: 'http://fsm-archive.appspot.com',
       description: "Web app written in python using the Bottle framework to do routing. We managed to provide a clean interface for
@@ -33,7 +33,7 @@ def initialize_projects
     {
       name: 'Food Me',
       timeframe: '3/1/14 - 12 hrs',
-      blurb: "Hackers@Berkeley's HackJam. Built a when to meet with perks for food. Python Google App Enging",
+      blurb: "Hackers@Berkeley's HackJam. Built a when to meet with perks for food. Python Google App Engine",
       event_type: 'hackathon',
       repo: 'https://github.com/craighiller/foodme',
       demo: 'http://food-me.appspot.com',
