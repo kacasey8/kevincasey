@@ -11,7 +11,14 @@
     <div class="panel panel-default" id=<%= spaceless_type %>>
       <div class="panel-body">
         <h3><%= link_to project.name, project_path(project) %></h3>
-        <h4>[<%= link_to_if project.demo, 'demo', project.demo %>] [<%= link_to_if project.repo, 'repo', project.repo %>]</h4>
+        <h4>
+          <% if project.demo %>
+            [<%= link_to 'demo', project.demo %>] 
+          <% end %>
+          <% if project.repo %>
+            [<%= link_to 'repo', project.repo %>]
+          <% end %>
+        </h4>
         <h4>Time: <%= project.timeframe %></h4>
         <p><%= project.blurb %></p>
       </div>

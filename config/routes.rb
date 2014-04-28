@@ -4,6 +4,7 @@ Kevincasey::Application.routes.draw do
   root to: 'pages#home'
   match 'contact', to: 'pages#contact', via: :get, as: "contact"
   match 'experience', to: 'pages#experience', via: :get, as: "experience"
+  match 'resume', to: 'pages#resume', via: :get, as: "resume"
 
 
   # The priority is based upon order of creation: first created -> highest priority.

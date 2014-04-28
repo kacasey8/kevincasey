@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def experience
   end
+
+  def resume
+  end
 end

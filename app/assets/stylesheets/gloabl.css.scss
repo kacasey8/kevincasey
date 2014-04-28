@@ -16,22 +16,26 @@ li {
   padding-top:3px;
 }
 
-#hackathon {
+#resume_link {
+  background-color:rgba(255,0,0, 0.1);
+}
+
+#hackathon, #education {
   border-color:purple;
   border-width:2px;
 }
 
-#schoolcontest {
+#schoolcontest, #berkeley, #projectsexperience {
   border-color:green;
   border-width:2px;
 }
 
-#personalprojects {
+#personalprojects, #open_source, #activites {
   border-color:red;
   border-width:2px;
 }
 
-#contact {
+#contact, #skills {
   border-color:Khaki;
   border-width:2px;
 }
