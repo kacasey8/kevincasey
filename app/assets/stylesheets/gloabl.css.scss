@@ -13,30 +13,30 @@ p, address, li {
 }
 
 li {
-  padding-top:3px;
+  padding-top:2px;
 }
 
 #resume_link {
-  background-color:rgba(255,0,0, 0.1);
+  background-color:rgba(0, 255, 0, 0.1);
 }
 
-#hackathon, #education {
-  border-color:purple;
+#hackathon, #education, #othercontact {
+  background-color:rgba(233, 245, 73, 0.3);
   border-width:2px;
 }
 
-#schoolcontest, #berkeley, #projectsexperience {
-  border-color:green;
+#berkeley, #schoolcontest, #homeme {
+  background-color:rgba(0, 255, 0, 0.1);
   border-width:2px;
 }
 
 #personalprojects, #open_source, #activites {
-  border-color:red;
+  background-color:rgba(253, 179, 156, 0.2);
   border-width:2px;
 }
 
-#contact, #skills {
-  border-color:Khaki;
+#contact, #skills, #homesite {
+  background-color:rgba(161, 115, 220, 0.1);
   border-width:2px;
 }
 

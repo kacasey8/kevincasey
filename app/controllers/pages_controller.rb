@@ -8,6 +8,6 @@ class PagesController < ApplicationController
   def experience
   end
 
-  def resume
+  def education
   end
 end

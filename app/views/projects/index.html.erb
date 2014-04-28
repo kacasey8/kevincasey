@@ -4,7 +4,7 @@
 </div>
 <% @grouped_projects.each do |type, projects| %>
   <% spaceless_type = type.gsub(' ', '') %>
-  <div class="page-header" id=<%= spaceless_type %>>
+  <div class="page-header">
     <h2><%= type.pluralize.titleize %></h2>
   </div>
   <% projects.each do |project| %>
