@@ -9,12 +9,24 @@
 def initialize_projects
   hackathons = [
     {
+      name: 'Serendpity',
+      timeframe: '5/3/14 - 5/4/14 (2 days)',
+      blurb: 'Our entry for the Hackbright for good event! Built a web app that allows people to make wishes and fulfill them with the intent of charity donations fueling the system.  Python Bottle.',
+      event_type: 'hackathon', 
+      repo: 'https://github.com/craighiller/serendipity',
+      demo: 'http://hackserendipity.appspot.com/',
+      description: "We wanted this to be a cute app to encourage people to donate to charity and also help random strangers.  We struggled a lot on this because we
+            rolled our own user authentication system (which is also completely insecure, sorry).  We managed to get out features of texting through twillio
+            and fairly pleasing UI."
+    },
+    {
       name: 'Hack FSM',
-      timeframe: '4/1/14 - 4/12/14',
+      timeframe: '4/1/14 - 4/12/14 (12 days)',
       blurb: '1st place in a weeklong hackathon hosted by the Bancroft Library at Berkeley. Designed and built a web interface for the FSM Archive.  Python, Bottle.',
-      event_type: 'hackathon', repo: 'https://github.com/craighiller/hackfsm',
+      event_type: 'hackathon', 
+      repo: 'https://github.com/craighiller/hackfsm',
       demo: 'http://fsm-archive.appspot.com',
-      description: "Web app written in python using the Bottle framework to do routing. We managed to provide a clean interface for
+      description: "We managed to provide a clean interface for
             researchers exploring the Free Speech Movement Archive.  We were a team of 3 programmers (myself included) and one humanist.
             One of the programmers and our humanist managed give us brilliant ideas for design and feature requests.  I mainly worked on
             parsing and sending requests to a web SOLR database."
@@ -67,15 +79,18 @@ def initialize_projects
       event_type: 'school contest',
       description: "There were 4 different releases to the contest, making the parameters increasingly difficult.
             The first part was a search problem, agents could not be killed, so the problem was a matter steps required to collect pellets.
-            I used brute force randomized improvement with a backing of MST and clusting."
+            I used brute force randomized improvement with a backing of MST and clusting.  For the 3rd and 4th part we used a smart reflex agent
+            and as a lookahead used a precomputed 'trap table' solved through dynamic programming to determine whether or not a 
+            ghost could kill a pacman agent one on one in a given situation.  We managed to get first place in all but the 2nd release!"
     },
     {
       name: 'CS61C Matrix Multiplication',
       timeframe: 'Summer 2013',
       blurb: "1st place in a speed competition for multiplying (A * B = C) matrix using pthreads",
       event_type: 'school contest',
-      description: "Had the fastest algorithm among 140 students using register/cache blocking, SSE instructions and
-            parallel processing to distribute the load over 16 logical cores"
+      description: "Had the fastest algorithm among 140 students for multiplying matricies.  We used techniques including register/cache blocking, SSE instructions and
+            multi-threading to get up to 70 GFlops.  The most interesting thing was that we realized a lot of the hard work was done computing edge cases (literally
+            the edge of the matrix multiplication) because padding the matricies takes too much time and reusing the cache is much more difficult "
     },
     {
       name: 'CS61B Network Contest',
@@ -84,7 +99,7 @@ def initialize_projects
       event_type: 'school contest',
       description: "Used concepts of intermediate board evaluation, hash mapping, and depth 5 alpha-beta pruning to win a
             bracket based tournament in a class of 500.  My board evaluation was critical, and made sure to only favor positions
-            closer to winning.  I saw the game as a simplified game of chess and was able to program a very strong player."
+            closer to winning.  I saw the game as a simplified game of chess and was able to program a very strong bot to play the game."
     }
   ]
 
