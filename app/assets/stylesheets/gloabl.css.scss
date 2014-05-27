@@ -35,10 +35,49 @@ li {
   border-width:2px;
 }
 
-#contact, #skills, #homesite {
+#contact, #skills, #homesite, #schoolproject {
   background-color:rgba(161, 115, 220, 0.1);
   border-width:2px;
 }
 
+#img-result {
+  position: relative;
+}
+
+#img-result img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+}
+
+.cover {
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  transition: all 0.2s linear;
+  padding-top: 10%;
+}
+
+.cover h3 {
+  color: rgba(255,255,255,0);
+}
+
+#img-result a:hover .cover {
+  visibility: visible;
+  background-color: rgba(0,0,0,.8);
+  color: rgba(255,255,255,1);
+  transition: all 0.3s linear;
+}
+
+#img-result a:hover h3 {
+    color: rgba(255,255,255,1);
+    transition: all 0.3s linear;
+}
+
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 @import url("//netdna.bootstrapcdn.com/bootswatch/3.1.1/lumen/bootstrap.min.css");
+
