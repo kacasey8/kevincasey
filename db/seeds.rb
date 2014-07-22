@@ -9,6 +9,18 @@
 def initialize_projects
   hackathons = [
     {
+      name: 'Get Matched',
+      timeframe: '7/9/14 - 7/10/14 (2 days)',
+      blurb: 'First place in the Godaddy 2014 Intern Hackathon. Built a web app that allows small buisness to get matched up in the Tinder model.  Ruby on Rails.',
+      event_type: 'hackathon', 
+      repo: 'https://github.com/skleung/get-matched',
+      demo: 'http://get-matched.herokuapp.com/',
+      image_src: '/get-matched.png',
+      description: "We used the Locu api in order to pull information about buisnesses and used a custom algorithm to match up the buisnesses.
+              The idea being that we only match buisnesses if both the buisnesses hit accept on each other.  Search for buisnesses by filling in needs and search
+              for customers so that both people can accept each other.  Have a custom chat system built in."
+    },
+    {
       name: 'Serendpity',
       timeframe: '5/3/14 - 5/4/14 (2 days)',
       blurb: 'Our entry for the Hackbright for good event! Built a web app that allows people to make wishes and fulfill them with the intent of charity donations fueling the system.  Python Bottle.',
@@ -113,6 +125,20 @@ def initialize_projects
   ]
 
   personal = [
+    {
+      name: 'Community',
+      timeframe: 'Summer 2014',
+      blurb: "Built a web app designed to help assist roommates in splitting the cost of ingredients when cooking.",
+      event_type: 'personal projects',
+      repo: "https://github.com/skleung/Community",
+      demo: "http://community-app.herokuapp.com/",
+      image_src: '/community.png',
+      description: "My friend thought of the idea for this app and I designed most of the backend for this project.
+            Nothing like this really exists currently.  We focus on splitting food cost so we can do it right: people
+            attend meals on our site and we track how many times an ingredient is used so we can accurately gauge how
+            much of the ingredient was used at each meal so we know the cost of the meal.  With a custom calendar to signup
+            for meals and integration with Venmo we have a very real solution to help people that experience this."
+    },
     {
       name: 'Irrational Mind',
       timeframe: 'January 2014',

@@ -20,7 +20,7 @@ li {
   background-color:rgba(0, 255, 0, 0.1);
 }
 
-#hackathon, #education, #othercontact {
+#hackathon, #education, #othercontact, #godaddy {
   background-color:rgba(233, 245, 73, 0.3);
   border-width:2px;
 }
@@ -49,6 +49,7 @@ li {
   width: 100%;
   height: auto;
   max-height: 600px;
+  max-width: 700px;
 }
 
 .cover {
