@@ -140,6 +140,18 @@ def initialize_projects
             for meals and integration with Venmo we have a very real solution to help people that experience this."
     },
     {
+      name: 'HearthstoneCounter',
+      timeframe: 'Summer 2014',
+      blurb: "Built a simple web app to record which decks counter which decks in Hearthstone",
+      event_type: 'personal projects',
+      repo: "https://github.com/chungs1/hearthstone_counter",
+      demo: "http://hearthstonecounter.herokuapp.com/",
+      image_src: '/hearthstonecounter.png',
+      description: "My friend, a buisness major thought of the idea to log the current meta game of the Blizzard
+              card game called Hearthstone.  The admin can add decks, and specify the matchups as which deck counters the other.
+              Nonadmins can explore the decks and give a thumbs up or thumbs down based on what they think."
+    },
+    {
       name: 'Irrational Mind',
       timeframe: 'January 2014',
       blurb: "Designed and built a simple Ruby On Rails app to convert decimal approximations of irrational numbers to approximate rational numbers. E.g. 0.392699 -> π/8.",

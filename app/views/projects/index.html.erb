@@ -2,8 +2,15 @@
 <div class="page-header">
   <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
 </div>
+<div class="page-header">
+  <% @grouped_projects.each do |type, projects| %>
+    <% spaceless_type = type.gsub(' ', '') %>
+    <h4><%= link_to type.pluralize.titleize, "#" + spaceless_type + "header" %></h4>
+  <% end %>
+</div>
 <% @grouped_projects.each do |type, projects| %>
   <% spaceless_type = type.gsub(' ', '') %>
+  <div id="<%= spaceless_type + 'header' %>" style="padding-bottom: 20px;"></div>
   <div class="page-header">
     <h2><%= type.pluralize.titleize %></h2>
   </div>
