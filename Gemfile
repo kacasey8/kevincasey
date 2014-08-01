@@ -8,7 +8,7 @@ gem 'annotate'
 
 gem "twitter-bootstrap-rails"
 
-group :production do
+group :production, :staging do
   gem 'newrelic_rpm'
 	gem 'rails_12factor'
 	gem 'pg'
