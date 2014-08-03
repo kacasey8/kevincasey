@@ -2,9 +2,11 @@ Kevincasey::Application.routes.draw do
   resources :projects
 
   root to: 'pages#home'
-  match 'contact', to: 'pages#contact', via: :get, as: "contact"
   match 'experience', to: 'pages#experience', via: :get, as: "experience"
   match 'other', to: 'pages#education', via: :get, as: "education"
+
+  match '/contact',     to: 'contacts#new',             via: 'get'
+  resources "contacts", only: [:new, :create]
 
 
   # The priority is based upon order of creation: first created -> highest priority.

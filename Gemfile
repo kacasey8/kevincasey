@@ -8,6 +8,8 @@ gem 'annotate'
 
 gem "twitter-bootstrap-rails"
 gem "font-awesome-rails"
+gem 'mail_form'
+gem 'simple_form'
 
 group :production, :staging do
   gem 'newrelic_rpm'
