@@ -14,31 +14,42 @@
   <div class="page-header">
     <h2><%= type.pluralize.titleize %></h2>
   </div>
-  <% projects.each do |project| %>
-    <div class="panel panel-default" id='<%= spaceless_type %>'>
-      <div class="panel-body">
-        <h3><%= link_to project.name, project_path(project) %></h3>
-        <h4>
-          <% if project.demo %>
-            [<%= link_to 'demo', project.demo %>]
-          <% end %>
-          <% if project.repo %>
-            [<%= link_to 'repo', project.repo %>]
-          <% end %>
-        </h4>
-        <% if project.image_src %>
-          <div id='img-result'>
-            <a href='<%="/projects/#{project.id}"%>'>
-              <%= image_tag project.image_src %>
-              <div class="cover">
-                <h3><%= project.name %></h3>
-              </div>
-            </a>
+  <% projects.each_with_index do |project, i| %>
+    <% if i % 2 == 0 %>
+      <div class="row"><!-- place two projects per row -->
+    <% end %>
+        <div class="span6">
+          <div class="panel panel-default" id='<%= spaceless_type %>'>
+            <div class="panel-body">
+              <h3><%= link_to project.name, project_path(project) %></h3>
+              <h4>
+                <% if project.demo %>
+                  [<%= link_to 'demo', project.demo %>]
+                <% end %>
+                <% if project.repo %>
+                  [<%= link_to 'repo', project.repo %>]
+                <% end %>
+              </h4>
+              <% if project.image_src %>
+                <div id='img-result'>
+                  <a href='<%="/projects/#{project.id}"%>'>
+                    <%= image_tag project.image_src %>
+                    <div class="cover">
+                      <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                  </a>
+                </div>
+              <% end %>
+              <h4>Time: <%= project.timeframe %></h4>
+              <p><%= project.blurb %></p>
+            </div>
           </div>
-        <% end %>
-        <h4>Time: <%= project.timeframe %></h4>
-        <p><%= project.blurb %></p>
+        </div>
+    <% if i % 2 == 1 %>
       </div>
-    </div>
+    <% end %>
+  <% end %>
+  <% if projects.count % 2 == 1 %>
+    </div><!-- end the row if there is an odd # of projects. last row won't close -->
   <% end %>
 <% end %>

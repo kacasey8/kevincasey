@@ -7,6 +7,7 @@ gem 'rails', '4.1.4'
 gem 'annotate'
 
 gem "twitter-bootstrap-rails"
+gem "font-awesome-rails"
 
 group :production, :staging do
   gem 'newrelic_rpm'
