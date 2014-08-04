@@ -5,8 +5,14 @@ footer
 
 body {
   background-color:AliceBlue;
-  padding-top: 60px;
   font-family: 'Lato', serif;
+}
+
+// Navbar expanded
+@media (min-width: 980px){
+  .body-content {
+    padding-top: 50px;
+  }
 }
 
 p, address, li {
