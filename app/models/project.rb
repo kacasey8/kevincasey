@@ -13,6 +13,7 @@
 #  created_at  :datetime
 #  updated_at  :datetime
 #  event_type  :string(255)
+#  language    :string(255)
 #
 
 class Project < ActiveRecord::Base

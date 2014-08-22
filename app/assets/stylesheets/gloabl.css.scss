@@ -88,6 +88,10 @@ li {
   transition: all 0.5s ease;
 }
 
+#link_highlight {
+  background-color: yellow;
+}
+
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 @import url("//netdna.bootstrapcdn.com/bootswatch/3.1.1/lumen/bootstrap.min.css");
 

@@ -11,7 +11,8 @@ def initialize_projects
     {
       name: 'Get Matched',
       timeframe: '7/9/14 - 7/10/14 (2 days)',
-      blurb: 'First place in the Godaddy 2014 Intern Hackathon. Built a web app that allows small buisness to get matched up in the Tinder model.  Ruby on Rails.',
+      blurb: 'First place in the Godaddy 2014 Intern Hackathon. Built a web app that allows small buisness to get matched up in the Tinder model',
+      language: 'Ruby on Rails',
       event_type: 'hackathon', 
       repo: 'https://github.com/skleung/get-matched',
       demo: 'http://get-matched.herokuapp.com/',
@@ -23,7 +24,8 @@ def initialize_projects
     {
       name: 'Serendpity',
       timeframe: '5/3/14 - 5/4/14 (2 days)',
-      blurb: 'Our entry for the Hackbright for good event! Built a web app that allows people to make wishes and fulfill them with the intent of charity donations fueling the system.  Python Bottle.',
+      blurb: 'Our entry for the Hackbright for good event! Built a web app that allows people to make wishes and fulfill them with the intent of charity donations fueling the system.',
+      language: 'Python',
       event_type: 'hackathon', 
       repo: 'https://github.com/craighiller/serendipity',
       demo: 'http://hackserendipity.appspot.com/',
@@ -35,7 +37,8 @@ def initialize_projects
     {
       name: 'Hack FSM',
       timeframe: '4/1/14 - 4/12/14 (12 days)',
-      blurb: '1st place in a weeklong hackathon hosted by the Bancroft Library at Berkeley. Designed and built a web interface for the FSM Archive.  Python, Bottle.',
+      blurb: '1st place in a weeklong hackathon hosted by the Bancroft Library at Berkeley. Designed and built a web interface for the FSM Archive',
+      language: 'Python',
       event_type: 'hackathon', 
       repo: 'https://github.com/craighiller/hackfsm',
       demo: 'http://fsm-archive.appspot.com',
@@ -48,7 +51,8 @@ def initialize_projects
     {
       name: 'Hall Of Time',
       timeframe: '3/8/14 - 18 hrs',
-      blurb: "Best Nonprofit in Blueprint's Social good hackathon. Built a timesheet app for the Lawrence Hall Of Science. Ruby on Rails",
+      blurb: "Best Nonprofit in Blueprint's Social good hackathon. Built a timesheet app for the Lawrence Hall Of Science",
+      language: 'Ruby on Rails',
       event_type: 'hackathon',
       repo: 'https://github.com/Fortisque/halloftime',
       demo: 'http://halloftime.herokuapp.com/',
@@ -60,7 +64,8 @@ def initialize_projects
     {
       name: 'Food Me',
       timeframe: '3/1/14 - 12 hrs',
-      blurb: "Hackers@Berkeley's HackJam. Built a when to meet with perks for food. Python Google App Engine",
+      blurb: "Hackers@Berkeley's HackJam. Built a when to meet with perks for food",
+      language: 'Python',
       event_type: 'hackathon',
       repo: 'https://github.com/craighiller/foodme',
       demo: 'http://food-me.appspot.com',
@@ -75,7 +80,8 @@ def initialize_projects
     {
       name: 'Photo Evidence Gallery',
       timeframe: 'Fall 2013',
-      blurb: "Ruby on Rails website developed for BAMRU designed to privately store photos",
+      blurb: "Website developed for BAMRU designed to privately store photos",
+      language: 'Ruby on Rails',
       event_type: 'school project',
       repo: 'https://github.com/cs169-2013/photo_evidence_gallery',
       demo: 'http://photoevidence.herokuapp.com',
@@ -93,6 +99,7 @@ def initialize_projects
       name: 'CS188 Pacman Contest',
       timeframe: 'Spring 2014',
       blurb: "1st place winner in a contest of programming multi-agent competitive capture the flag (food pellet) game",
+      language: 'Python',
       event_type: 'school contest',
       image_src: 'capture_the_flag.png',
       description: "There were 4 different releases to the contest, making the parameters increasingly difficult.
@@ -105,6 +112,7 @@ def initialize_projects
       name: 'CS61C Matrix Multiplication',
       timeframe: 'Summer 2013',
       blurb: "1st place in a speed competition for multiplying (A * B = C) matrix using pthreads",
+      language: 'C',
       event_type: 'school contest',
       image_src: 'matrix_multiplication.png',
       description: "Had the fastest algorithm among 140 students for multiplying matricies.  We used techniques including register/cache blocking, SSE instructions and
@@ -115,6 +123,7 @@ def initialize_projects
       name: 'CS61B Network Contest',
       timeframe: 'Spring 2013',
       blurb: "1st place winner for a contest of playing the game called Network (it's similar to checkers)",
+      language: 'Java',
       event_type: 'school contest',
       image_src: 'network.png',
       description: "Used concepts of intermediate board evaluation, hash mapping, and depth 5 alpha-beta pruning to win a
@@ -128,6 +137,7 @@ def initialize_projects
       name: 'Community',
       timeframe: 'Summer 2014',
       blurb: "Built a web app designed to help assist roommates in splitting the cost of ingredients when cooking.",
+      language: 'Ruby on Rails',
       event_type: 'personal projects',
       repo: "https://github.com/skleung/Community",
       demo: "http://community-app.herokuapp.com/",
@@ -142,6 +152,7 @@ def initialize_projects
       name: 'HearthstoneCounter',
       timeframe: 'Summer 2014',
       blurb: "Built a simple web app to record which decks counter which decks in Hearthstone",
+      language: 'Ruby on Rails',
       event_type: 'personal projects',
       repo: "https://github.com/chungs1/hearthstone_counter",
       demo: "http://hearthstonecounter.herokuapp.com/",
@@ -153,7 +164,8 @@ def initialize_projects
     {
       name: 'Irrational Mind',
       timeframe: 'January 2014',
-      blurb: "Designed and built a simple Ruby On Rails app to convert decimal approximations of irrational numbers to approximate rational numbers. E.g. 0.392699 -> π/8.",
+      blurb: "Designed and built a simple app to convert decimal approximations of irrational numbers to approximate rational numbers. E.g. 0.392699 -> π/8.",
+      language: 'Ruby on Rails',
       event_type: 'personal projects',
       repo: "github.com/Fortisque/irrational_mind",
       demo: "http://irrational-mind.herokuapp.com",
@@ -167,6 +179,7 @@ def initialize_projects
       name: 'Bluetooth Markers',
       timeframe: 'Spring 2013',
       blurb: "Designed and built an iPhone app that would add a marker to a map when Bluetooth connections were severed",
+      language: 'Objective-C',
       event_type: 'personal projects',
       repo: "github.com/Fortisque/BluetoothMarkers",
       description: "My friend actually gave me the idea for this because he kept forgetting where he parked his car.
