@@ -3,7 +3,14 @@ class ProjectsController < ApplicationController
   # GET /projects
   # GET /projects.json
   def index
-    @grouped_projects = Project.all.group_by(&:event_type)
+    @languages = Project.all.pluck(:language).uniq
+    if @languages.include? params[:language]
+      projects = Project.where(language: params[:language])
+      @languages << 'all'
+    else
+      projects = Project.all
+    end
+    @grouped_projects = projects.group_by(&:event_type)
   end
 
   # GET /projects/1

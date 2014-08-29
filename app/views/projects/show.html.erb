@@ -13,14 +13,16 @@
 <dl class="dl-horizontal">
   <dt><strong><%= model_class.human_attribute_name(:timeframe) %>:</strong></dt>
   <dd><%= @project.timeframe %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:language) %>:</strong></dt>
+  <dd><%= @project.language %></dd>
   <dt><strong><%= model_class.human_attribute_name(:blurb) %>:</strong></dt>
   <dd><%= @project.blurb %></dd>
   <dt><strong><%= model_class.human_attribute_name(:description) %>:</strong></dt>
   <dd><%= @project.description %></dd>
-  <!--<%# if @project.image_src %>
-    <dt></dt>
-    <dd><%#= image_tag @project.image_src %></dd>
-  <%# end %>-->
+  <% if @project.image_src %>
+    <dt>Image:</dt>
+    <dd><%= image_tag @project.image_src %></dd>
+  <% end %>
 </dl>
 
 <%= link_to '<span class="glyphicon glyphicon-chevron-left"></span> Back'.html_safe, projects_path, :class => 'btn btn-primary btn-lg' %>
