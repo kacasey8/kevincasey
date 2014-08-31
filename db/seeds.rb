@@ -11,14 +11,14 @@ def initialize_projects
     {
       name: 'Get Matched',
       timeframe: '7/9/14 - 7/10/14 (2 days)',
-      blurb: 'First place in the Godaddy 2014 Intern Hackathon. Built a web app that allows small buisness to get matched up in the Tinder model',
+      blurb: 'First place in the Godaddy 2014 Intern Hackathon. Built a web app that allows small business to get matched up in the Tinder model',
       language: 'Ruby on Rails',
       event_type: 'hackathon', 
       repo: 'https://github.com/skleung/get-matched',
       demo: 'http://get-matched.herokuapp.com/',
       image_src: 'get-matched.png',
-      description: "We used the Locu api in order to pull information about buisnesses and used a custom algorithm to match up the buisnesses.
-              The idea being that we only match buisnesses if both the buisnesses hit accept on each other.  Search for buisnesses by filling in needs and search
+      description: "We used the Locu api in order to pull information about businesses and used a custom algorithm to match up the businesses.
+              The idea being that we only match businesses if both the businesses hit accept on each other.  Search for businesses by filling in needs and search
               for customers so that both people can accept each other.  Have a custom chat system built in."
     },
     {
