@@ -12,7 +12,7 @@
     </div>
     <div class="span6">
       <% @languages.each do |language| %>
-        <h4 id="<%= 'link_highlight' if language == params[:language] %>"><%= link_to language, projects_path(language: language) %></h4>
+        <h4><span id="<%= 'link_highlight' if language == params[:language] %>"><%= link_to language, projects_path(language: language) %></span></h4>
       <% end %>
     </div>
   </div>
