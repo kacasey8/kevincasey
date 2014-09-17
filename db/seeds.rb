@@ -96,7 +96,7 @@ def initialize_projects
 
   school_contests = [
     {
-      name: 'CS188 Pacman Contest',
+      name: 'Artificial Intelligence - Pacman Contest',
       timeframe: 'Spring 2014',
       blurb: "1st place winner in a contest of programming multi-agent competitive capture the flag (food pellet) game",
       language: 'Python',
@@ -109,7 +109,7 @@ def initialize_projects
             ghost could kill a pacman agent one on one in a given situation.  We managed to get first place in all but the 2nd release!"
     },
     {
-      name: 'CS61C Matrix Multiplication',
+      name: 'Machine Structures - Matrix Multiplication Contest',
       timeframe: 'Summer 2013',
       blurb: "1st place in a speed competition for multiplying (A * B = C) matrix using pthreads",
       language: 'C',
@@ -120,7 +120,7 @@ def initialize_projects
             the edge of the matrix multiplication) because padding the matricies takes too much time and reusing the cache is much more difficult "
     },
     {
-      name: 'CS61B Network Contest',
+      name: 'Data Structures - Network Contest',
       timeframe: 'Spring 2013',
       blurb: "1st place winner for a contest of playing the game called Network (it's similar to checkers)",
       language: 'Java',
