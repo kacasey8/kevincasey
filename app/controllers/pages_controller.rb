@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def home
-    @highlight_projects = Project.where(name: ['Community', 'Serendpity', 'Hack FSM', 'CS188 Pacman Contest'])
+    @highlight_projects = Project.where(name: ['Community', 'Serendpity', 'Hack FSM', 'Artificial Intelligence - Pacman Contest'])
   end
 
   def experience
