@@ -50,10 +50,10 @@
           <a class="brand" href="/">Kevin Casey</a>
           <div class="container-fluid nav-collapse">
             <ul class="nav">
-              <li><%= link_to "Projects", "/projects"  %></li>
-              <li><%= link_to "Experience", "/experience"  %></li>
-              <li><%= link_to "Other", "/other"  %></li>
-              <li><%= link_to "Contact", "/contact"  %></li>
+              <li class="<%= 'active' if params[:controller]=='projects' %>"><%= link_to "Projects", "/projects"  %></li>
+              <li class="<%= 'active' if params[:action] == 'experience' %>"><%= link_to "Experience", "/experience"  %></li>
+              <li class="<%= 'active' if params[:action] == 'education' %>"><%= link_to "Other", "/other"  %></li>
+              <li class="<%= 'active' if params[:controller] == 'contacts' %>"><%= link_to "Contact", "/contact"  %></li>
               <li><%= link_to "Resume", "/kevincaseyresume.pdf", target: '_blank'  %></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -79,7 +79,7 @@
         <p>
           <%= link_to "Github", "http://github.com/Fortisque" %> |
           <%= link_to "Facebook", "https://www.facebook.com/kevin.casey.1612" %> |
-          <%= link_to "Linkedin", "https://www.linkedin.com/profile/view?id=205206080" %> |
+          <%= link_to "Linkedin", "https://www.linkedin.com/profile/view?id=205206080" %>
         </p>
       </footer>
 

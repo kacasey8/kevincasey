@@ -6,7 +6,7 @@ class ProjectsController < ApplicationController
     @languages = Project.all.pluck(:language).uniq
     if @languages.include? params[:language]
       projects = Project.where(language: params[:language])
-      @languages << 'all'
+      @languages << 'All'
     else
       projects = Project.all
     end
