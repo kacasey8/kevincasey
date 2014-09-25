@@ -16,7 +16,7 @@ def initialize_projects
         event_type: 'hackathon',
         repo: 'https://github.com/craighiller/BuildItBreakItFixItForSparta',
         demo: 'https://www.builditbreakit.org/scoreboard',
-        image_src: 'builtit.png',
+        image_src: 'built_it.png',
         description: "I really enjoyed this competition because we got to use a lot of the concepts we learned from security class. I used an AES cipher,
               a cryptographically secure random nonce with a magic constant and decided to use the secret token itself to encrypt the log.
               In the encrypted section we used a JSON 'database' to save the state of the art gallery and a sha256 hash over it. To optimize I used zlib for compression
