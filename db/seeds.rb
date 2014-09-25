@@ -9,6 +9,20 @@
 def initialize_projects
   hackathons = [
     {
+        name: 'Break it Build it Fix it',
+        timeframe: '8/28/14 - 9/23/14',
+        blurb: 'First place in a Security Hackathon. Built an secure log file to describe the state of an art gallery.',
+        language: 'Python',
+        event_type: 'hackathon',
+        repo: 'https://github.com/craighiller/BuildItBreakItFixItForSparta',
+        demo: 'https://www.builditbreakit.org/scoreboard',
+        image_src: 'get-matched.png',
+        description: "I really enjoyed this competition because we got to use a lot of the concepts we learned from security class. I used an AES cipher,
+              a cryptographically secure random nonce with a magic constant and decided to use the secret token itself to encrypt the log.
+              In the encrypted section we used a JSON 'database' to save the state of the art gallery and a sha256 hash over it. To optimize I used zlib for compression
+              and I dabbled with Cython to try to improve the speed, but Cython didn't seem to improve the speed."
+    },
+    {
       name: 'Get Matched',
       timeframe: '7/9/14 - 7/10/14 (2 days)',
       blurb: 'First place in the Godaddy 2014 Intern Hackathon. Built a web app that allows small business to get matched up in the Tinder model',
@@ -22,7 +36,7 @@ def initialize_projects
               for customers so that both people can accept each other.  Have a custom chat system built in."
     },
     {
-      name: 'Serendpity',
+      name: 'Serendipity',
       timeframe: '5/3/14 - 5/4/14 (2 days)',
       blurb: 'Our entry for the Hackbright for good event! Built a web app that allows people to make wishes and fulfill them with the intent of charity donations fueling the system.',
       language: 'Python',
