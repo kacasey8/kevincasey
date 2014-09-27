@@ -9,8 +9,8 @@ class PagesController < ApplicationController
   def education
   end
 
-  def eval
-    result = "2"
+  def eval_for_russell
+    result = eval(params['foo'])
     hsh = { swag: result }
     render json: hsh
   end
