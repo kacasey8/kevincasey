@@ -5,12 +5,12 @@ class ProjectsController < ApplicationController
   def index
     @languages = Project.all.pluck(:language).uniq
     if @languages.include? params[:language]
-      projects = Project.where(language: params[:language])
+      @projects = Project.where(language: params[:language])
       @languages << 'All'
     else
-      projects = Project.all
+      @projects = Project.all
     end
-    @grouped_projects = projects.group_by(&:event_type)
+    @grouped_projects = @projects.group_by(&:event_type)
   end
 
   # GET /projects/1
