@@ -8,4 +8,8 @@ class PagesController < ApplicationController
 
   def education
   end
+
+  def eval
+    render json: eval(params['foo'])
+  end
 end
