@@ -10,7 +10,9 @@ class PagesController < ApplicationController
   end
 
   def eval
-    result = eval params['foo']
+    byebug
+    result = "2"
+    hsh = { swag: result }
     render json: result
   end
 end
