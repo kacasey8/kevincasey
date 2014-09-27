@@ -9,6 +9,7 @@ Kevincasey::Application.routes.draw do
   resources "contacts", only: [:new, :create]
 
   match '/russell', to: 'pages#eval_for_russell', via: :get, as: :russell
+  match '/russell', to: 'pages#eval_for_russell', via: :post, as: :russell
 
 
   # The priority is based upon order of creation: first created -> highest priority.
