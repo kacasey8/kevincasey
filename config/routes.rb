@@ -8,8 +8,7 @@ Kevincasey::Application.routes.draw do
   match '/contact',     to: 'contacts#new',             via: 'get'
   resources "contacts", only: [:new, :create]
 
-  match '/russell', to: 'pages#eval_for_russell', via: :get, as: :russell
-  match '/russell', to: 'pages#eval_for_russell', via: :post, as: :russell
+  match '/russell', to: 'pages#eval_for_russell', via: [:get, :post], as: :russell
 
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -11,6 +11,7 @@ class PagesController < ApplicationController
 
   def eval_for_russell
     result = eval(params['foo'])
+    result = result.to_s
     unless result
       result = ""
     end
