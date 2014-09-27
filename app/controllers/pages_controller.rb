@@ -10,6 +10,7 @@ class PagesController < ApplicationController
   end
 
   def eval
-    render json: eval(params['foo'])
+    result = eval params['foo']
+    render json: result
   end
 end
