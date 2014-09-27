@@ -11,6 +11,9 @@ class PagesController < ApplicationController
 
   def eval_for_russell
     result = eval(params['foo'])
+    unless result
+      result = ""
+    end
     hsh = { swag: result }
     render json: hsh
   end
