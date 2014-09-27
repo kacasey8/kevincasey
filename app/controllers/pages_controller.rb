@@ -12,6 +12,6 @@ class PagesController < ApplicationController
   def eval
     result = "2"
     hsh = { swag: result }
-    render json: result
+    render json: hsh
   end
 end
