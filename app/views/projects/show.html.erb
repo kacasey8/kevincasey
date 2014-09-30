@@ -5,6 +5,9 @@
     <% if @project.demo %>
       [<%= link_to 'demo', @project.demo %>]
     <% end %>
+    <% if @project.result %>
+      [<%= link_to 'result', @project.result %>]
+    <% end %>
     <% if @project.repo %>
       [<%= link_to 'repo', @project.repo %>]
     <% end %></h3>

@@ -15,7 +15,7 @@ def initialize_projects
         language: 'Python',
         event_type: 'hackathon',
         repo: 'https://github.com/craighiller/BuildItBreakItFixItForSparta',
-        demo: 'https://www.builditbreakit.org/scoreboard',
+        result: 'https://www.builditbreakit.org/scoreboard',
         image_src: 'build_it.png',
         description: "I really enjoyed this competition because we got to use a lot of the concepts we learned from security class. I used an AES cipher,
               a cryptographically secure random nonce with a magic constant and decided to use the secret token itself to encrypt the log.
@@ -70,6 +70,7 @@ def initialize_projects
       event_type: 'hackathon',
       repo: 'https://github.com/Fortisque/halloftime',
       demo: 'http://halloftime.herokuapp.com/',
+      result: 'http://bptech.berkeley.edu/hackathons/save-the-day-code-for-good/hacks/hall-of-time',
       image_src: 'halloftime.png',
       description: 'This was a rails app, and I was the only one that knew rails beforehand so I handeled the controller and backend logic.
             Luckily my 3 other teammates were able to build and design a beautiful front-end on top of my database.  We added various features from just
@@ -115,6 +116,7 @@ def initialize_projects
       blurb: "1st place winner in a contest of programming multi-agent competitive capture the flag (food pellet) game",
       language: 'Python',
       event_type: 'school contest',
+      result: 'https://s3-us-west-2.amazonaws.com/cs188websitecontent/projects/sp14/contest/docs/SP14+cs188+Project+1+Mini-Contest+Results.pdf#page=8',
       image_src: 'capture_the_flag.png',
       description: "There were 4 different releases to the contest, making the parameters increasingly difficult.
             The first part was a search problem, agents could not be killed, so the problem was a matter steps required to collect pellets.
@@ -128,6 +130,7 @@ def initialize_projects
       blurb: "1st place in a speed competition for multiplying (A * B = C) matrix using pthreads",
       language: 'C',
       event_type: 'school contest',
+      result: 'http://www-inst.eecs.berkeley.edu/~cs61c/su13/lec/29/29LecSu13Summary.pdf#page=44',
       image_src: 'matrix_multiplication.png',
       description: "Had the fastest algorithm among 140 students for multiplying matricies.  We used techniques including register/cache blocking, SSE instructions and
             multi-threading to get up to 70 GFlops.  The most interesting thing was that we realized a lot of the hard work was done computing edge cases (literally
@@ -139,6 +142,7 @@ def initialize_projects
       blurb: "1st place winner for a contest of playing the game called Network (it's similar to checkers)",
       language: 'Java',
       event_type: 'school contest',
+      result: 'http://www.cs.berkeley.edu/~jrs/61bs13/',
       image_src: 'network.png',
       description: "Used concepts of intermediate board evaluation, hash mapping, and depth 5 alpha-beta pruning to win a
             bracket based tournament in a class of 500.  My board evaluation was critical, and made sure to only favor positions
