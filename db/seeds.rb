@@ -11,7 +11,7 @@ def initialize_projects
     {
         name: 'Break it Build it Fix it',
         timeframe: '8/28/14 - 9/23/14',
-        blurb: 'Security Hackathon. Built an secure log file to describe the state of an art gallery.',
+        blurb: 'First place in a Security Hackathon. Built an secure log file to describe the state of an art gallery.',
         language: 'Python',
         event_type: 'hackathon',
         repo: 'https://github.com/craighiller/BuildItBreakItFixItForSparta',
