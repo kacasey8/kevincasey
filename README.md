@@ -1,4 +1,5 @@
-== kevincasey
+kevincasey
+==========
 
 This is my personal portfolio website written in Rails.
 
