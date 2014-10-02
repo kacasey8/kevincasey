@@ -51,11 +51,12 @@ def initialize_projects
     {
       name: 'Hack FSM',
       timeframe: '4/1/14 - 4/12/14 (12 days)',
-      blurb: '1st place in a weeklong hackathon hosted by the Bancroft Library at Berkeley. Designed and built a web interface for the FSM Archive',
+      blurb: '1st place in a weeklong hackathon hosted by the Bancroft Library at Berkeley. Designed and built a web interface for the FSM Archive.',
       language: 'Python',
       event_type: 'hackathon', 
       repo: 'https://github.com/craighiller/hackfsm',
       demo: 'http://fsm-archive.appspot.com',
+      result: 'http://fsm.berkeley.edu/resources',
       image_src: 'fsm.png',
       description: "We managed to provide a clean interface for
             researchers exploring the Free Speech Movement Archive.  We were a team of 3 programmers (myself included) and one humanist.
