@@ -102,7 +102,7 @@ def initialize_projects
         repo: 'https://github.com/aliceliu/TBD',
         demo: 'http://cool-beans.appspot.com',
         result: 'http://playconference.net/agenda/',
-        image_src: 'cool-beans.png',
+        image_src: 'coolbeans.png',
         description: "My IEOR190 team wanted to pivot, so we decided to try to make this recommendation based app, and for the Play Hackathon we narrowed down
                       our idea to target small/medium businesses. Currently this is a web app designed to be used on mobile. The idea is that people commonly
                       tell each other recommendations on places to go, but the current format is through messages or talking,
