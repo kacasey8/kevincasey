@@ -94,6 +94,43 @@ def initialize_projects
 
   school_projects = [
     {
+        name: 'Cool Beans',
+        timeframe: 'hackathon (10/19), project October 2014',
+        blurb: 'Finalist in the Play Hackathon. Built a platform to encourage personalized recommendations from friends.',
+        language: 'Python',
+        event_type: 'school project',
+        repo: 'https://github.com/alicejliu/TBD',
+        demo: 'http://cool-beans.appspot.com',
+        result: 'http://playconference.net/agenda/',
+        image_src: 'build_it.png',
+        description: "My IEOR190 team wanted to pivot, so we decided to try to make this recommendation based app, and for the Play Hackathon we narrowed down
+                      our idea to target small/medium businesses. Currently this is a web app designed to be used on mobile. The idea is that people commonly
+                      tell each other recommendations on places to go, but the current format is through messages or talking,
+                      which can easily be lost/forgotten. From the user's perspective we offer a clean storage for personal recommendations
+                      from your friends, an exciting leaderboard and reward opportunities. From the businesses perspective we offer
+                      custom analytics and most importantly a way to track word of mouth which is currently impossible to quantify, let alone reward.
+                      For being a finalist we get to present our idea at the Play Conference!"
+    },
+    {
+      name: 'Delight',
+      timeframe: 'September/October 2014',
+      blurb: "Calhacks submission. Website and mobile app. Scan QR codes on receipts to administer survey and custom analytics.",
+      language: 'Android/Python',
+      event_type: 'school project',
+      repo: 'https://github.com/Fortisque/Delight',
+      demo: 'http://delight-food.appspot.com',
+      image_src: 'photoevidence.png',
+      description: "My IEOR190 team worked on this as our project during Cal Hacks (10/3-10/5). We wanted to use this as our class project
+                    for mobile entrepreneurship. We managed to link up an Android app to a Google App Engine backend and proved that
+                    if we could intercept the payment process and get QR codes on receipts then we could have a beautiful interface to help
+                    restaurants gather genuine feedback rather than just the really amazing or terrible reviews. We wanted to give the user a
+                    chance to rate each dish and server individually in order to provide analysis which would help businesses make decisions
+                    about their products. We interviewed various restaurants, some like Eureka were very enthusiastic about the product, however
+                    we found that other restaurants didn't particularly want to even talk to us. We ended up pivoting to the idea to 'Cool-Beans'
+                    because we started realizing that the cost to sell this product to businesses would likely be more than the money we would get
+                    for the product."
+    },
+    {
       name: 'Photo Evidence Gallery',
       timeframe: 'Fall 2013',
       blurb: "Website developed for BAMRU designed to privately store photos",
