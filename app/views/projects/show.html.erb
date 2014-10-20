@@ -11,6 +11,7 @@
     <% if @project.repo %>
       [<%= link_to 'repo', @project.repo %>]
     <% end %></h3>
+    <%= link_to '<span class="glyphicon glyphicon-chevron-left"></span> Back'.html_safe, projects_path, :class => 'btn btn-primary btn-lg' %>
 </div>
 
 <dl class="dl-horizontal">
