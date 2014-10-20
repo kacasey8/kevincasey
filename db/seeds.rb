@@ -99,10 +99,10 @@ def initialize_projects
         blurb: 'Finalist in the Play Hackathon. Built a platform to encourage personalized recommendations from friends.',
         language: 'Python',
         event_type: 'school project',
-        repo: 'https://github.com/alicejliu/TBD',
+        repo: 'https://github.com/aliceliu/TBD',
         demo: 'http://cool-beans.appspot.com',
         result: 'http://playconference.net/agenda/',
-        image_src: 'build_it.png',
+        image_src: 'cool-beans.png',
         description: "My IEOR190 team wanted to pivot, so we decided to try to make this recommendation based app, and for the Play Hackathon we narrowed down
                       our idea to target small/medium businesses. Currently this is a web app designed to be used on mobile. The idea is that people commonly
                       tell each other recommendations on places to go, but the current format is through messages or talking,
@@ -119,7 +119,7 @@ def initialize_projects
       event_type: 'school project',
       repo: 'https://github.com/Fortisque/Delight',
       demo: 'http://delight-food.appspot.com',
-      image_src: 'photoevidence.png',
+      image_src: 'delight.png',
       description: "My IEOR190 team worked on this as our project during Cal Hacks (10/3-10/5). We wanted to use this as our class project
                     for mobile entrepreneurship. We managed to link up an Android app to a Google App Engine backend and proved that
                     if we could intercept the payment process and get QR codes on receipts then we could have a beautiful interface to help
