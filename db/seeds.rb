@@ -9,7 +9,44 @@
 def initialize_projects
   hackathons = [
     {
-        name: 'Break it Build it Fix it',
+        name: 'Cool Beans - 1st Place',
+        timeframe: 'hackathon (10/19), project October 2014',
+        blurb: 'Finalist in the Play Hackathon. Built a platform to encourage personalized recommendations from friends.',
+        language: 'Python',
+        event_type: 'hackathon',
+        repo: 'https://github.com/aliceliu/TBD',
+        demo: 'http://cool-beans.appspot.com',
+        result: 'http://playconference.net/agenda/',
+        image_src: 'coolbeans.png',
+        description: "My IEOR190 team wanted to pivot, so we decided to try to make this recommendation based app, and for the Play Hackathon we narrowed down
+                      our idea to target small/medium businesses. Currently this is a web app designed to be used on mobile. The idea is that people commonly
+                      tell each other recommendations on places to go, but the current format is through messages or talking,
+                      which can easily be lost/forgotten. From the user's perspective we offer a clean storage for personal recommendations
+                      from your friends, an exciting leaderboard and reward opportunities. From the businesses perspective we offer
+                      custom analytics and most importantly a way to track word of mouth which is currently impossible to quantify, let alone reward.
+                      For being a finalist we get to present our idea at the Play Conference!"
+    },
+    {
+      name: 'Delight',
+      timeframe: 'September/October 2014',
+      blurb: "Calhacks submission. Website and mobile app. Scan QR codes on receipts to administer survey and custom analytics.",
+      language: 'Android/Python',
+      event_type: 'hackathon',
+      repo: 'https://github.com/Fortisque/Delight',
+      demo: 'http://delight-food.appspot.com',
+      image_src: 'delight.png',
+      description: "My IEOR190 team worked on this as our project during Cal Hacks (10/3-10/5). We wanted to use this as our class project
+                    for mobile entrepreneurship. We managed to link up an Android app to a Google App Engine backend and proved that
+                    if we could intercept the payment process and get QR codes on receipts then we could have a beautiful interface to help
+                    restaurants gather genuine feedback rather than just the really amazing or terrible reviews. We wanted to give the user a
+                    chance to rate each dish and server individually in order to provide analysis which would help businesses make decisions
+                    about their products. We interviewed various restaurants, some like Eureka were very enthusiastic about the product, however
+                    we found that other restaurants didn't particularly want to even talk to us. We ended up pivoting to the idea to 'Cool-Beans'
+                    because we started realizing that the cost to sell this product to businesses would likely be more than the money we would get
+                    for the product."
+    },
+    {
+        name: 'Break it Build it Fix it - 1st Place',
         timeframe: '8/28/14 - 9/23/14',
         blurb: 'First place in a Security Hackathon. Built an secure log file to describe the state of an art gallery.',
         language: 'Python',
@@ -23,7 +60,7 @@ def initialize_projects
               and I dabbled with Cython to try to improve the speed, but Cython didn't seem to improve the speed."
     },
     {
-      name: 'Get Matched',
+      name: 'Get Matched - 1st Place',
       timeframe: '7/9/14 - 7/10/14 (2 days)',
       blurb: 'First place in the Godaddy 2014 Intern Hackathon. Built a web app that allows small business to get matched up in the Tinder model',
       language: 'Ruby on Rails',
@@ -49,7 +86,7 @@ def initialize_projects
             and fairly pleasing UI."
     },
     {
-      name: 'Hack FSM',
+      name: 'Hack FSM - 1st Place',
       timeframe: '4/1/14 - 4/12/14 (12 days)',
       blurb: '1st place in a weeklong hackathon hosted by the Bancroft Library at Berkeley. Designed and built a web interface for the FSM Archive.',
       language: 'Python',
@@ -64,7 +101,7 @@ def initialize_projects
             parsing and sending requests to a web SOLR database."
     },
     {
-      name: 'Hall Of Time',
+      name: 'Hall Of Time - Best Nonprofit',
       timeframe: '3/8/14 - 18 hrs',
       blurb: "Best Nonprofit in Blueprint's Social good hackathon. Built a timesheet app for the Lawrence Hall Of Science",
       language: 'Ruby on Rails',
@@ -93,43 +130,6 @@ def initialize_projects
   ]
 
   school_projects = [
-    {
-        name: 'Cool Beans',
-        timeframe: 'hackathon (10/19), project October 2014',
-        blurb: 'Finalist in the Play Hackathon. Built a platform to encourage personalized recommendations from friends.',
-        language: 'Python',
-        event_type: 'school project',
-        repo: 'https://github.com/aliceliu/TBD',
-        demo: 'http://cool-beans.appspot.com',
-        result: 'http://playconference.net/agenda/',
-        image_src: 'coolbeans.png',
-        description: "My IEOR190 team wanted to pivot, so we decided to try to make this recommendation based app, and for the Play Hackathon we narrowed down
-                      our idea to target small/medium businesses. Currently this is a web app designed to be used on mobile. The idea is that people commonly
-                      tell each other recommendations on places to go, but the current format is through messages or talking,
-                      which can easily be lost/forgotten. From the user's perspective we offer a clean storage for personal recommendations
-                      from your friends, an exciting leaderboard and reward opportunities. From the businesses perspective we offer
-                      custom analytics and most importantly a way to track word of mouth which is currently impossible to quantify, let alone reward.
-                      For being a finalist we get to present our idea at the Play Conference!"
-    },
-    {
-      name: 'Delight',
-      timeframe: 'September/October 2014',
-      blurb: "Calhacks submission. Website and mobile app. Scan QR codes on receipts to administer survey and custom analytics.",
-      language: 'Android/Python',
-      event_type: 'school project',
-      repo: 'https://github.com/Fortisque/Delight',
-      demo: 'http://delight-food.appspot.com',
-      image_src: 'delight.png',
-      description: "My IEOR190 team worked on this as our project during Cal Hacks (10/3-10/5). We wanted to use this as our class project
-                    for mobile entrepreneurship. We managed to link up an Android app to a Google App Engine backend and proved that
-                    if we could intercept the payment process and get QR codes on receipts then we could have a beautiful interface to help
-                    restaurants gather genuine feedback rather than just the really amazing or terrible reviews. We wanted to give the user a
-                    chance to rate each dish and server individually in order to provide analysis which would help businesses make decisions
-                    about their products. We interviewed various restaurants, some like Eureka were very enthusiastic about the product, however
-                    we found that other restaurants didn't particularly want to even talk to us. We ended up pivoting to the idea to 'Cool-Beans'
-                    because we started realizing that the cost to sell this product to businesses would likely be more than the money we would get
-                    for the product."
-    },
     {
       name: 'Photo Evidence Gallery',
       timeframe: 'Fall 2013',
