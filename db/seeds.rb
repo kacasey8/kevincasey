@@ -9,15 +9,30 @@
 def initialize_projects
   hackathons = [
     {
+        name: 'Study With Me - 3rd Place',
+        timeframe: '10/25 - 9 hrs',
+        blurb: 'Third place in the Code for Cal Hackathon. Built an iOS app designed to allow students to broadcast and find current study groups',
+        language: 'Objective-C',
+        event_type: 'hackathon',
+        repo: 'https://github.com/Fortisque/studywithme',
+        image_src: 'studywithme.png',
+        description: "My partner and I wanted to build an app to help students find study groups. Currently it is difficult to find people
+                      that want to study at the same time as you. We did iPhone development, she did the frontend and I worked on the rest
+                      of the stack. We managed to get an interface to add/remove classes, a way to create study groups and mark their location from
+                      geocoded addresses, a window to show study groups, and a really basic messaging component. Overall I'm really proud of
+                      what we were able to accomplish as our first time doing iOS in a long time. We'd need to clean up the code a bit and add
+                      proper notifications, but the app looks almost ready."
+    },
+    {
         name: 'Cool Beans - 3rd Place',
         timeframe: 'hackathon (10/19), project October 2014',
         blurb: 'Finalist in the Play Hackathon. Built a platform to encourage personalized recommendations from friends.',
         language: 'Python',
         event_type: 'hackathon',
         repo: 'https://github.com/aliceliu/TBD',
-        demo: 'http://cool-beans.appspot.com',
+        demo: 'http://cool-beans.appspot.com/mobile',
         result: 'http://playconference.net/agenda/',
-        image_src: 'coolbeans.png',
+        image_src: 'cool-beans.png',
         description: "My IEOR190 team wanted to pivot, so we decided to try to make this recommendation based app, and for the Play Hackathon we narrowed down
                       our idea to target small/medium businesses. Currently this is a web app designed to be used on mobile. The idea is that people commonly
                       tell each other recommendations on places to go, but the current format is through messages or talking,
