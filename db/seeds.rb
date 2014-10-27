@@ -9,7 +9,7 @@
 def initialize_projects
   hackathons = [
     {
-        name: 'Cool Beans - 1st Place',
+        name: 'Cool Beans - 3rd Place',
         timeframe: 'hackathon (10/19), project October 2014',
         blurb: 'Finalist in the Play Hackathon. Built a platform to encourage personalized recommendations from friends.',
         language: 'Python',
