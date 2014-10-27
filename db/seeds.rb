@@ -21,7 +21,8 @@ def initialize_projects
                       of the stack. We managed to get an interface to add/remove classes, a way to create study groups and mark their location from
                       geocoded addresses, a window to show study groups, and a really basic messaging component. Overall I'm really proud of
                       what we were able to accomplish as our first time doing iOS in a long time. We'd need to clean up the code a bit and add
-                      proper notifications, but the app looks almost ready."
+                      proper notifications, but the app looks almost ready. We had just learned about built.io so we used it for the backend,
+                      it was actually easy to use and we were able to get pretty far with it."
     },
     {
         name: 'Cool Beans - 3rd Place',
