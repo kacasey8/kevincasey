@@ -18,4 +18,8 @@ class PagesController < ApplicationController
     hsh = { swag: result }
     render json: hsh
   end
+
+  def alice
+    render layout: false
+  end
 end
