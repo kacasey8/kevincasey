@@ -127,7 +127,7 @@ def initialize_projects
       demo: 'http://halloftime.herokuapp.com/',
       result: 'http://bptech.berkeley.edu/hackathons/save-the-day-code-for-good/hacks/hall-of-time',
       image_src: 'halloftime.png',
-      description: 'This was a rails app, and I was the only one that knew rails beforehand so I handeled the controller and backend logic.
+      description: 'This was a rails app, and I was the only one that knew rails beforehand so I handled the controller and backend logic.
             Luckily my 3 other teammates were able to build and design a beautiful front-end on top of my database.  We added various features from just
             a basic database time logging including a dashboard that can log current tasks and a calendar view.'
     },
