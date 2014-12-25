@@ -15,7 +15,7 @@ def initialize_projects
         language: 'Objective-C',
         event_type: 'hackathon',
         repo: 'https://github.com/Fortisque/studywithme',
-        result: 'http://stc.berkeley.edu/competitions/2014',
+        result: 'http://stc.berkeley.edu/competitions/code-4-cal/2014-2015',
         image_src: 'studywithme.png',
         description: "My partner and I wanted to build an app to help students find study groups. Currently it is difficult to find people
                       that want to study at the same time as you. We did iPhone development, she did the frontend and I worked on the rest
