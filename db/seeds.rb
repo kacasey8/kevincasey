@@ -82,7 +82,7 @@ def initialize_projects
       name: 'Delight',
       timeframe: 'September/October 2014',
       blurb: "Calhacks submission. Website and mobile app. Scan QR codes on receipts to administer survey and custom analytics.",
-      language: 'Android/Python',
+      language: 'Python',
       event_type: 'hackathon',
       repo: 'https://github.com/Fortisque/Delight',
       demo: 'http://delight-food.appspot.com',
