@@ -9,6 +9,25 @@
 def initialize_projects
   hackathons = [
     {
+        name: 'Beam',
+        timeframe: '12/21/14 - 1/3/15 ~ 10 days',
+        blurb: 'Submission for the Happiness Challenge. Built an iOS app designed to give out daily challenges.',
+        language: 'Objective-C',
+        event_type: 'hackathon',
+        repo: 'https://github.com/Fortisque/beam',
+        demo: 'https://itunes.apple.com/us/app/beam!/id954958942?ls=1&mt=8',
+        result: 'http://challengepost.com/software/beam-zmfqu',
+        image_src: 'beam.png',
+        description: "My team that I met in IEOR190 decided try the happiness challenge. We wanted to create a simple
+                      app that would give you daily challenges. We didn't win, but I had a lot of fun integrating Facebook
+                      login, notifications and going through all the steps to get an app on the app store. Youc an download our
+                      app by clicking the result link. Beam is a mobile app that motivates you to take a 
+                      little time out of your day to do things that make you happy. Everyday, Beam gives you a 
+                      bite-sized happiness challenge that anyone can do, such as “Take a walk outside”, 
+                      “Call an old friend”, or “Dance to your favorite song” so you can enhance your health, 
+                      better your relationships, or have some fun."
+    },
+    {
         name: 'Study With Me - 3rd Place',
         timeframe: '10/25 - 9 hrs',
         blurb: 'Third place in the Code for Cal Hackathon. Built an iOS app designed to allow students to broadcast and find current study groups',
