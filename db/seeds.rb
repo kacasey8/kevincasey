@@ -9,6 +9,22 @@
 def initialize_projects
   hackathons = [
     {
+        name: 'Jarvis',
+        timeframe: '12/21/14 - 1/3/15 ~ 10 days',
+        blurb: 'Submission for TreeHacks. Built a google chrome extension that allows voice control.',
+        language: 'Chrome Extension',
+        event_type: 'hackathon',
+        repo: 'https://github.com/Fortisque/jarvis',
+        demo: 'https://www.youtube.com/watch?v=tYwndoL8l0I',
+        result: 'http://challengepost.com/software/jarvis-z2lhh',
+        image_src: 'jarvis.png',
+        description: "We were inspired by Jarvis from Ironman. Our target user is anyone who uses Chrome. 
+                      The key feature we are most proud of is the ability to associate a voice command with 
+                      arbitrary code on arbitrary page. This allows us to do things such as posting on a friend's wall 
+                        with \"hi\" or controlling the SmartThings light bulb with \"light\". Check out the youtube
+                        video from the demo link"
+    },
+    {
         name: 'Beam',
         timeframe: '12/21/14 - 1/3/15 ~ 10 days',
         blurb: 'Submission for the Happiness Challenge. Built an iOS app designed to give out daily challenges.',
