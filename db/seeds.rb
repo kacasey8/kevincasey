@@ -44,21 +44,18 @@ def initialize_projects
                       better your relationships, or have some fun."
     },
     {
-        name: 'Study With Me - 3rd Place',
+        name: 'Study With Me - 1st Place',
         timeframe: '10/25 - 9 hrs',
-        blurb: 'Third place in the Code for Cal Hackathon. Built an iOS app designed to allow students to broadcast and find current study groups',
+        blurb: 'First place in the Mobile App Competition for UC Berkeley. Built an iOS app designed to allow students to broadcast and find current study groups',
         language: 'Objective-C',
         event_type: 'hackathon',
         repo: 'https://github.com/Fortisque/studywithme',
-        result: 'http://stc.berkeley.edu/competitions/code-4-cal/2014-2015',
+        result: 'http://stc.berkeley.edu/competitions/app-competition/2014-2015',
         image_src: 'studywithme.png',
         description: "My partner and I wanted to build an app to help students find study groups. Currently it is difficult to find people
-                      that want to study at the same time as you. We did iPhone development, she did the frontend and I worked on the rest
+                      that want to study at the same time as you. We did iPhone development, she worked mainly on frontend and I worked on the rest
                       of the stack. We managed to get an interface to add/remove classes, a way to create study groups and mark their location from
-                      geocoded addresses, a window to show study groups, and a really basic messaging component. Overall I'm really proud of
-                      what we were able to accomplish as our first time doing iOS in a long time. We'd need to clean up the code a bit and add
-                      proper notifications, but the app looks almost ready. We had just learned about built.io so we used it for the backend,
-                      it was actually easy to use and we were able to get pretty far with it."
+                      geocoded addresses, a window to show study groups, and messaging within each study group."
     },
     {
         name: 'Cool Beans - 3rd Place',
