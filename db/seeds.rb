@@ -9,8 +9,22 @@
 def initialize_projects
   hackathons = [
     {
+        name: 'Study With Me - 1st Place',
+        timeframe: '10/25 - 9 hrs + ~30 hrs from 2/1/2015 - 2/6/2015',
+        blurb: 'First place in the Mobile App Competition for UC Berkeley. Built an iOS app designed to allow students to broadcast and find current study groups',
+        language: 'Objective-C',
+        event_type: 'hackathon',
+        repo: 'https://github.com/Fortisque/studywithme',
+        result: 'http://stc.berkeley.edu/competitions/app-competition/2014-2015',
+        image_src: 'studywithme.png',
+        description: "My partner and I wanted to build an app to help students find study groups. Currently it is difficult to find people
+                      that want to study at the same time as you. We did iPhone development, she worked mainly on frontend and I worked on the rest
+                      of the stack. We managed to get an interface to add/remove classes, a way to create study groups and mark their location from
+                      geocoded addresses, a window to show study groups, and messaging within each study group."
+    },
+    {
         name: 'Jarvis',
-        timeframe: '12/21/14 - 1/3/15 ~ 10 days',
+        timeframe: '2/20/15 - 2/22/15, 36 hours',
         blurb: 'Submission for TreeHacks. Built a google chrome extension that allows voice control.',
         language: 'Chrome Extension',
         event_type: 'hackathon',
@@ -42,20 +56,6 @@ def initialize_projects
                       bite-sized happiness challenge that anyone can do, such as “Take a walk outside”, 
                       “Call an old friend”, or “Dance to your favorite song” so you can enhance your health, 
                       better your relationships, or have some fun."
-    },
-    {
-        name: 'Study With Me - 1st Place',
-        timeframe: '10/25 - 9 hrs',
-        blurb: 'First place in the Mobile App Competition for UC Berkeley. Built an iOS app designed to allow students to broadcast and find current study groups',
-        language: 'Objective-C',
-        event_type: 'hackathon',
-        repo: 'https://github.com/Fortisque/studywithme',
-        result: 'http://stc.berkeley.edu/competitions/app-competition/2014-2015',
-        image_src: 'studywithme.png',
-        description: "My partner and I wanted to build an app to help students find study groups. Currently it is difficult to find people
-                      that want to study at the same time as you. We did iPhone development, she worked mainly on frontend and I worked on the rest
-                      of the stack. We managed to get an interface to add/remove classes, a way to create study groups and mark their location from
-                      geocoded addresses, a window to show study groups, and messaging within each study group."
     },
     {
         name: 'Cool Beans - 3rd Place',
