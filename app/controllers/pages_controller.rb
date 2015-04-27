@@ -29,6 +29,8 @@ class PagesController < ApplicationController
     p "+" * 80
     p params["responses"]
     p "-" * 80
-    p params["responses"]['First Name']
+    res = JSON.parse(params["responses"])
+    p res['First Name']
+    p ")" * 80
   end
 end
