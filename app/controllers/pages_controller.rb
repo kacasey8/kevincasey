@@ -22,4 +22,9 @@ class PagesController < ApplicationController
   def alice
     render layout: false
   end
+
+  def aneesh
+    p "*" * 80
+    p params
+  end
 end

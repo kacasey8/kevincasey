@@ -1,6 +1,8 @@
 Kevincasey::Application.routes.draw do
   resources :projects
 
+  match '/aneesh', to: 'pages#aneesh', via: :post
+
   root to: 'pages#home'
   match 'experience', to: 'pages#experience', via: :get, as: "experience"
   match 'other', to: 'pages#education', via: :get, as: "education"
