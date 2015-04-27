@@ -26,5 +26,9 @@ class PagesController < ApplicationController
   def aneesh
     p "*" * 80
     p params
+    p "+" * 80
+    p params["responses"]
+    p "-" * 80
+    p params["responses"]['First Name']
   end
 end
