@@ -17,7 +17,7 @@ def initialize_projects
         repo: 'https://github.com/Fortisque/studywithme',
         result: 'http://stc.berkeley.edu/competitions/app-competition/2014-2015',
         demo: 'http://studywithme.builtapp.io/',
-        image_src: 'studywithme.png',
+        image_src: 'studywithmeupdated.png',
         description: "This started as a hackathon. My partner and I wanted to build an app to help students find study groups. Currently it is difficult to find people
                       that want to study at the same time as you. We won 3rd place in the 2014 Code 4 Cal Hackathon, and then continued developing to win 1st place in
                       the following STC Mobile App Competition. UC Berkeley then invited us to have them launch our application through their name, so we cleaned up
