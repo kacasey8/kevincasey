@@ -8,6 +8,10 @@ body {
   font-family: 'Lato', serif;
 }
 
+.panel-body {
+  padding: 15px;
+}
+
 // Navbar expanded
 @media (min-width: 980px){
   .body-content {
