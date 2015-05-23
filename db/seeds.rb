@@ -9,18 +9,19 @@
 def initialize_projects
   hackathons = [
     {
-        name: 'Study With Me - 1st Place',
-        timeframe: '10/25 - 9 hrs + ~30 hrs from 2/1/2015 - 2/6/2015',
-        blurb: 'First place in the Mobile App Competition for UC Berkeley. Built an iOS app designed to allow students to broadcast and find current study groups',
+        name: 'Study With Me',
+        timeframe: '10/25 - 9 hrs + ~30 hrs from 2/1/2015 - 2/6/2015 + app store release',
+        blurb: 'Released an iOS app through UC Berkeley designed to allow students to broadcast and find current study groups',
         language: 'Objective-C',
         event_type: 'hackathon',
         repo: 'https://github.com/Fortisque/studywithme',
         result: 'http://stc.berkeley.edu/competitions/app-competition/2014-2015',
+        demo: 'http://studywithme.builtapp.io/',
         image_src: 'studywithme.png',
-        description: "My partner and I wanted to build an app to help students find study groups. Currently it is difficult to find people
-                      that want to study at the same time as you. We did iPhone development, she worked mainly on frontend and I worked on the rest
-                      of the stack. We managed to get an interface to add/remove classes, a way to create study groups and mark their location from
-                      geocoded addresses, a window to show study groups, and messaging within each study group."
+        description: "This started as a hackathon. My partner and I wanted to build an app to help students find study groups. Currently it is difficult to find people
+                      that want to study at the same time as you. We won 3rd place in the 2014 Code 4 Cal Hackathon, and then continued developing to win 1st place in
+                      the following STC Mobile App Competition. UC Berkeley then invited us to have them launch our application through their name, so we cleaned up
+                      the hackathon code and now have an app on the app store"
     },
     {
         name: 'Jarvis',
@@ -35,13 +36,13 @@ def initialize_projects
         description: "We were inspired by Jarvis from Ironman. Our target user is anyone who uses Chrome. 
                       The key feature we are most proud of is the ability to associate a voice command with 
                       arbitrary code on arbitrary page. This allows us to do things such as posting on a friend's wall 
-                        with \"hi\" or controlling the SmartThings light bulb with \"light\". Check out the youtube
+                        by saying \"hi\" or controlling a SmartThings light bulb with \"light\". Check out the youtube
                         video from the demo link"
     },
     {
         name: 'Beam',
         timeframe: '12/21/14 - 1/3/15 ~ 10 days',
-        blurb: 'Submission for the Happiness Challenge. Built an iOS app designed to give out daily challenges.',
+        blurb: 'Submission for the Happiness Challenge. Released an iOS app designed to give out daily challenges.',
         language: 'Objective-C',
         event_type: 'hackathon',
         repo: 'https://github.com/Fortisque/beam',
@@ -50,10 +51,9 @@ def initialize_projects
         image_src: 'beam.png',
         description: "My team that I met in IEOR190 decided try the happiness challenge. We wanted to create a simple
                       app that would give you daily challenges. We didn't win, but I had a lot of fun integrating Facebook
-                      login, notifications and going through all the steps to get an app on the app store. Youc an download our
-                      app by clicking the result link. Beam is a mobile app that motivates you to take a 
-                      little time out of your day to do things that make you happy. Everyday, Beam gives you a 
-                      bite-sized happiness challenge that anyone can do, such as “Take a walk outside”, 
+                      login, notifications and going through all the steps to get an app on the app store. Beam is a mobile
+                      app that motivates you to take a little time out of your day to do things that make you happy. Everyday,
+                      Beam gives you a bite-sized happiness challenge that anyone can do, such as “Take a walk outside”, 
                       “Call an old friend”, or “Dance to your favorite song” so you can enhance your health, 
                       better your relationships, or have some fun."
     },
@@ -72,8 +72,7 @@ def initialize_projects
                       tell each other recommendations on places to go, but the current format is through messages or talking,
                       which can easily be lost/forgotten. From the user's perspective we offer a clean storage for personal recommendations
                       from your friends, an exciting leaderboard and reward opportunities. From the businesses perspective we offer
-                      custom analytics and most importantly a way to track word of mouth which is currently impossible to quantify, let alone reward.
-                      For being a finalist we get to present our idea at the Play Conference!"
+                      custom analytics and most importantly a way to track word of mouth which is currently impossible to quantify, let alone reward."
     },
     {
       name: 'Delight',
@@ -179,6 +178,25 @@ def initialize_projects
   ]
 
   school_projects = [
+    {
+      name: 'storybubbles',
+      timeframe: 'November/December 2014',
+      blurb: "Built an iPad to foster interactive storytelling",
+      language: 'Objective-C',
+      event_type: 'school project',
+      repo: 'https://github.com/Fortisque/storybubbles',
+      demo: 'https://www.dropbox.com/s/fxa3777ytk02ec6/final_demo.mov?dl=0',
+      result: 'https://www.dropbox.com/s/nr3luztna57xojy/storybubbles13.key?dl=0',
+      image_src: 'storybubbles.png',
+      description: "This was the final pivot for our IEOR190 team. We wanted to build an app that would provide a fun, yet educational experience
+                    for young children (4-9). We had finally discovered a mission that could have real impact on the world. In today's society, kids
+                    spend a significant amount time on their iPad and resort to playing games to hold their attention. However, a interactive stories
+                    could be as interesting as games, but at the same time increase reading proficiency. We developed three interactions - drawing,
+                    summarizing, and word unscrambling - that would act as the intersection of learning, creativity and fun. The app pulls JSON from
+                    the server, the idea being that eventually a website would exist to allow collaboration of artists and writers to make high quality
+                    stories that would seamlessly be added to our app. Although we didn't win the competition for our class, I am very proud of what our
+                    team did here."
+    },
     {
       name: 'Photo Evidence Gallery',
       timeframe: 'Fall 2013',
