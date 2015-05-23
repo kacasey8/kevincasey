@@ -3,14 +3,14 @@
   <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
 </div>
 <div class="page-header">
-  <div class="row-fluid">
-    <div class="span6">
+  <div class="row">
+    <div class="col-xs-6">
       <% @grouped_projects.each do |type, projects| %>
         <% spaceless_type = type.gsub(' ', '') %>
         <h4><%= link_to type.pluralize.titleize, "#" + spaceless_type + "header" %></h4>
       <% end %>
     </div>
-    <div class="span6">
+    <div class="col-xs-6">
       <% @languages.each do |language| %>
         <h4><span id="<%= 'link_highlight' if language == params[:language] %>"><%= link_to language, projects_path(language: language) %></span></h4>
       <% end %>
@@ -25,9 +25,9 @@
   </div>
   <% projects.each_with_index do |project, i| %>
     <% if i % 2 == 0 %>
-      <div class="row-fluid"><!-- place two projects per row -->
+      <div class="row"><!-- place two projects per row -->
     <% end %>
-        <div class="span6">
+        <div class="col-sm-6" style="max-width:600px">
           <div class="panel panel-default" id='<%= spaceless_type %>'>
             <div class="panel-body">
               <h3><%= link_to project.name, project_path(project) %></h3>

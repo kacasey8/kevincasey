@@ -8,15 +8,8 @@ body {
   font-family: 'Lato', serif;
 }
 
-.panel-body {
-  padding: 15px;
-}
-
-// Navbar expanded
-@media (min-width: 980px){
-  .body-content {
-    padding-top: 50px;
-  }
+body {
+    padding-top: 70px;
 }
 
 p, address, li {

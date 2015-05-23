@@ -6,6 +6,9 @@ gem 'rails', '4.1.4'
 
 gem 'annotate'
 
+gem "therubyracer"
+gem "less-rails"
+
 gem "twitter-bootstrap-rails"
 gem "font-awesome-rails"
 gem 'mail_form'

@@ -22,9 +22,9 @@
 </div>
 <% @highlight_projects.each_with_index do |project, i| %>
   <% if i % 2 == 0 %>
-    <div class="row-fluid"><!-- place two projects per row -->
+    <div class="row"><!-- place two projects per row -->
   <% end %>
-      <div class="span6">
+      <div class="col-sm-6" style="max-width: 600px;">
         <div class="panel panel-default" id='<%= project.event_type.gsub " ", "" %>'>
           <div class="panel-body">
             <h3><%= link_to project.name, project_path(project) %></h3>
