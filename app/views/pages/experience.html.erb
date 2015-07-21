@@ -2,7 +2,7 @@
   <h1>Experience</h1>
 </div>
 
-<div class="page-header">
+<div class="page-header" id="industryheader">
   <h2>Industry</h2>
 </div>
 <div class="panel panel-default industry">
@@ -10,8 +10,11 @@
     <h4>Facebook - Summer 2015</h4>
     <p>
       At Facebook, I worked on the iOS News Feed team. I developed a new API at the
-      persistence level to allow news feed and other list like views to store more
-      items by allowing incremental loading of items from disk as you scroll down.
+      persistence level to allow subset loading of items in news feed and other
+      list like views. This gave us the ability to save more stories to disk,
+      because we didn't have to worry about a massive restoration process competing
+      with UI threads when starting up - instead we just restore a single page from
+      disk and continue to load more when people scroll down.
       After that I facilitated loading from disk across "gaps" that are created
       if an indeterminate amount of stories exist between the current bottom
       viewable story and the next chunk on disk.
@@ -22,8 +25,9 @@
   <div class="panel-body">
     <h4>GoDaddy - Summer 2014</h4>
     <p>
-      In the summer of 2014 I worked as a Software Development Intern at GoDaddy. I worked on
-      the Online Store product, which is designed to allow nontechnical people to construct a
+      In the summer of 2014 I did Ruby on Rails as a Software Development Intern
+      at GoDaddy. I worked on  the Online Store product, which is designed to
+      allow nontechnical people to construct a
       quick shopping cart.  Online Store is built off and contributes back to
       <a href="http://www.github.com/spree/spree">spree.</a> I tackled a variety of bugs 
       and worked on features such as internationalization, internal analytics and allowing 

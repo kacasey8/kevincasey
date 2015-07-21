@@ -224,7 +224,7 @@ def initialize_projects
       result: 'https://s3-us-west-2.amazonaws.com/cs188websitecontent/projects/sp14/contest/docs/SP14+cs188+Project+1+Mini-Contest+Results.pdf#page=8',
       image_src: 'capture_the_flag.png',
       description: "There were 4 different releases to the contest, making the parameters increasingly difficult.
-            The first part was a search problem, agents could not be killed, so the problem was a matter steps required to collect pellets.
+            The first part was a search problem, agents could not be killed, so the problem was a two agent travelling salesman problem.
             I used brute force randomized improvement with a backing of MST and clusting.  For the 3rd and 4th part we used a smart reflex agent
             and as a lookahead used a precomputed 'trap table' solved through dynamic programming to determine whether or not a 
             ghost could kill a pacman agent one on one in a given situation.  We managed to get first place in all but the 2nd release!"
