@@ -84,9 +84,8 @@ GEM
       activesupport (>= 5.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    jbuilder (1.5.3)
-      activesupport (>= 3.0.0)
-      multi_json (>= 1.2.0)
+    jbuilder (2.11.2)
+      activesupport (>= 5.0.0)
     jquery-rails (4.4.0)
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
@@ -111,7 +110,6 @@ GEM
     mini_mime (1.1.1)
     mini_portile2 (2.6.1)
     minitest (5.14.4)
-    multi_json (1.15.0)
     newrelic_rpm (7.2.0)
     nio4r (2.5.8)
     nokogiri (1.12.4)
@@ -209,7 +207,7 @@ DEPENDENCIES
   byebug
   coffee-rails
   font-awesome-rails
-  jbuilder (~> 1.2)
+  jbuilder
   jquery-rails
   less-rails
   mail_form
